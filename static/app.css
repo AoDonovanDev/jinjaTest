@@ -1,0 +1,18 @@
+.formItem{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+form{
+    width: 20vw;
+}
+button{
+    margin-top: 16px;
+}
+#newBtn{
+    margin-bottom: 20px;
+}
+#newBtn > button{
+    background-color: goldenrod;
+    border: 1px solid antiquewhite;
+    border-radius: 8px;
+}

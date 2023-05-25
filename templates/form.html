@@ -1,0 +1,29 @@
+{%extends 'base.html'%}
+{% block content%}
+<form action="/newstory">
+        
+    <div class="formItem">
+        <label for="place">place</label>
+        <input type="text" name="place">
+    </div>
+    <div class="formItem">
+        <label for="noun">noun</label>
+        <input type="text" name="noun">
+    </div>
+    <div class="formItem">
+        <label for="verb">verb</label>
+        <input type="text" name="verb">
+    </div>
+    <div class="formItem">
+        <label for="adjective">adjective</label>
+        <input type="text" name="adjective">
+    </div>
+    <div class="formItem">
+        <label for="plural_noun">plural noun</label>
+        <input type="text" name="plural_noun">
+    </div>
+    <button>generate mad lib</button>
+
+</form>
+{% endblock %}
+
